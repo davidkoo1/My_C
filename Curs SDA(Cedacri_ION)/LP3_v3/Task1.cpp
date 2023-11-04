@@ -65,7 +65,7 @@ void addToLeft(char* codBanca, char* codClient, char* dataOperatiune, double sum
 void deleteToRight()
 {
 
-	struct OperatiuneBancara* current = head, * tmp;
+	struct OperatiuneBancara* current = head, *tmp;
 	if (current == NULL)
 	{
 		printf("List clear\n");

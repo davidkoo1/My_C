@@ -138,7 +138,7 @@ int calculate(char expression[])
 
 int main()
 {
-    char expression[] = "(2*3-1+(10+11/3)*2)-1";
+    char expression[] = "2+3*2";
     int result = calculate(expression);
     printf("Result: %d\n", result);
 
